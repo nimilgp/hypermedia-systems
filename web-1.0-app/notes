@@ -1,0 +1,12 @@
+
+#sqlite3 dbname -> creates db and drops in sqlite shell
+
+#.read sqlscriptname -> in sqlite shell will run the script on the db
+
+#.mode box -> default will be list , box mode is easier on the eyes
+
+#for exporting as csv
+#.headers on
+#.mode csv
+#.once csvfilename
+#SELECT * FROM tablename;
